@@ -28,3 +28,4 @@ for product in products:
 
 most_entered_key = max(products, key=products.get)
 print("Count: ", products[most_entered_key])
+print(f"The most entered product: ", most_entered_key)
